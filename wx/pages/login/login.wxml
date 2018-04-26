@@ -1,0 +1,47 @@
+<view class='container'>
+  <view class='item'>
+    <image src="../../images/tx.jpg" class='tx'/>
+  </view>
+
+  <view class='item'>
+    <view class='login-item'>
+      <image class='user' src="../../images/user.png" class='icon'/>
+      <view class='login-item-info'>用户名:</view>
+      <view><input bindinput='usernameInput' class='inputText' placeholder='请输入用户名'/></view>
+    </view>
+
+    <view class='login-item'>
+      <image class='user' src="../../images/pass.png" class='icon'/>
+      <view class='login-item-info'>密  码:</view>
+      <view><input bindinput='passwordInput' class='inputText' placeholder='请输入密码' type='password'/></view>
+       
+    </view>
+    
+    <view class='login-pwd'>
+
+        <!-- <input style='flex-grow:1' password='true' bindinput='passwordInput'/> -->
+        <text>忘记密码？</text>
+
+      </view> 
+
+
+
+  
+    <view class='login'>
+       <button class='login-btn' bindtap="loginBtnClick">登录</button>
+    </view>
+  </view>
+
+  <view class='bottom'>
+    <view>
+      <text>没有账户？</text>
+      <navigator url="/pages/reg/reg" hover-class='navigator-hover'>
+        <text style='font-size:15px;margin-left:10rpx;color:red;'>注册</text>
+      </navigator>
+    </view>
+    <view class='wechat-icon'>
+       
+    </view>
+  </view>
+
+</view>

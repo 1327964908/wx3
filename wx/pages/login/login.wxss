@@ -1,0 +1,67 @@
+.item{
+  width:100%;
+}
+.item .tx{
+  width:200rpx;
+  height: 200rpx;
+  border-radius: 100%;
+   margin: 40rpx auto;
+  margin-left: 35%; 
+  box-shadow: 0 0 10px #666;
+}
+.login-item{
+  width:90%;
+  height: 93rpx;
+  padding: 10rpx;
+  border: 1px solid #f2f2f2;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5px #ddd;
+  margin:20px auto;
+}
+.login-item .icon{
+  width:50rpx;
+  height:50rpx;
+  float:left;
+  margin-top: 20rpx;
+}
+.login-item-info{
+  width: 140rpx;
+  /* background: blue; */
+  float: left;
+   margin-top: 20rpx; 
+   margin-left:18rpx;
+}
+.inputText{
+  width:65%;
+  margin-top:5rpx;  
+  float: right;
+  font-size:12px;
+  padding: 14rpx;
+}
+.login-pwd{
+  width:30%;
+  font-size: 13px;
+  margin-left: 75%;
+}
+.login-pwd text:hover{
+  color: blue;
+  cursor: pointer;
+}
+.login .login-btn{
+  background: #1296db;
+  width:70%;
+  margin-top: 40rpx;
+  color: #fff; 
+}
+.bottom{
+  width:40%;
+  padding: 20rpx;
+  font-size: 13px;
+   margin-left: 65%; 
+   margin-top: 10px;
+
+}
+.bottom text{
+  float: left;
+  display: inline-block;
+}

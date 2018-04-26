@@ -1,0 +1,49 @@
+/**index.wxss**/
+.container{
+  width:100%;
+}
+.selction{
+  width:100%;
+  margin: 10px auto;
+}
+
+image{
+  width:100%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;/*左右分布*/
+  align-items: center;/*垂直居中*/
+  border-left: 2px solid greenyellow;
+}
+.text-all{
+  color: greenyellow;
+  font-size:22rpx;
+  margin-right:10px;
+}
+.content{
+  display: flex;
+  flex-direction: row;/*横向布局*/
+  flex-wrap: wrap;/*一行放不下换行*/
+  justify-content: center;/*水平居中*/
+}
+.content-item{
+  width: 45%;
+  height: 250rpx;
+  margin: 7px;
+   position: relative; 
+  border:1px solid #000;
+}
+.content-item image{
+  width: 100%;
+  height: 100%;
+}
+.content-item-text{
+  position: absolute; 
+  bottom:0;
+  font-size:30rpx;
+  color: #ffffff;
+  background: linear-gradient(bottom,rgba(255, green, blue, alpha)); 
+  justify-content: center;
+}

@@ -1,0 +1,31 @@
+<view class="container">
+
+  <button type='primary' bindtap='click'>按钮</button>
+
+  <!--action-sheet底部弹出菜单  -->
+  <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+    <action-sheet-item bindtap="itemClick" data-name="name1" data-id="1">item1</action-sheet-item>
+    <action-sheet-item bindtap="itemClick" data-name="name2">item2</action-sheet-item>
+    <action-sheet-item bindtap="itemClick" data-name="name3">item3</action-sheet-item>
+    <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+  </action-sheet>
+
+
+<!--model弹框  -->
+<modal title="你好啊" confirm-text="确认" cancel-text="取消" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCancel">
+这是对话框取消
+</modal>
+
+<!--消息提示框  -->
+<toast hidden="{{toastHidden}}" duration="1000" bindchange="toastChange">
+默认
+</toast>
+
+<!--加载框  -->
+<loading hidden="{{loadingHidden}}">
+
+  加载中...
+</loading>
+
+
+</view>

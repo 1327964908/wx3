@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/canvas/canvas",
+    "pages/map/map",
+    "pages/audio/audio",
+    "pages/action/action",
+    "pages/reg/reg",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/local/local"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "用户登录",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath": "pages/local/local",
+        "text": "位置",
+        "iconPath": "images/local.png",
+        "selectedIconPath": "images/local1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me1.png"
+      }
+    ]
+  }
+}

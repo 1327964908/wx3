@@ -1,0 +1,54 @@
+ <!--index.wxml-->
+<view class="container">
+
+<!--轮播图  -->
+  <view class='selction'>
+    <swiper indicator-dots='true' autoplay='true' interval='3000' duration='1000'>
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src='{{item}}' class='slide-image'/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class='selection'>
+    <view class='header'>
+      <text>精品推荐</text>
+      <text class='text-all'>全部精品</text>
+    </view>
+  </view>
+
+  <view class='content'>
+
+    <view class='content-item'>
+      <image src='../../images/one.jpg'/>
+      <view class='content-item-text'>
+        <text>苹果手机</text>
+      </view>
+    </view>
+    <view class='content-item'>
+      <image src='../../images/two.jpg'/>
+      <text>2</text>
+    </view>
+    <view class='content-item'>
+      <image src='../../images/three.jpg'/>
+      <text>3</text>
+    </view>
+    <view class='content-item'>
+      <image src='../../images/four.jpg'/>
+      <text>4</text>
+    </view>
+
+  </view>
+
+  <view class='selection'>
+    <view class='header'>
+      <text>服饰包包</text>
+      <text class='text-all'>全部精品</text>
+    </view>
+  </view>
+  
+  
+</view>
+ 

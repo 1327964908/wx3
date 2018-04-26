@@ -1,0 +1,52 @@
+
+.login-from{
+  width:90%;
+  margin: 20% auto;
+}
+.inputView{
+  width:100%;
+  padding: 2% 0;
+  border: 1px solid #f2f2f2;
+  margin: 4% 0;
+  border-radius: 10rpx;
+}
+.inputView image{
+  width: 24px;
+  height: 24px;
+  padding: 2%;
+  float: left;
+}
+.inputView label{
+  width:160rpx;
+  display: block;
+  /* flex: auto; */
+   margin: 0 12%; 
+  padding: 3% 0;
+  font-size:26rpx;
+}
+.inputView input{
+  width:61%;
+  margin-top:-75rpx;
+  float: right;
+  padding: 1.7%;
+  font-size: 12px;
+}
+
+.loginBtn .btn{
+  background: #1296db;
+  width:70%;
+  margin-top: 40rpx;
+  color: #fff; 
+}
+.bottom{
+  width:40%;
+  padding: 20rpx;
+  font-size: 13px;
+   margin-left: 65%; 
+   margin-top: 10px;
+
+}
+.bottom text{
+  float: left;
+  display: inline-block;
+}

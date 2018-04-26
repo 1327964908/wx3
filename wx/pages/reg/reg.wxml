@@ -1,0 +1,40 @@
+<view class="container">
+  <view class='login-from'>
+    <!--用户名  -->
+    <view class='inputView'>
+      <image class='user' src='../../images/user.png'/>
+      <label class='login'>用户名：</label>
+      <input type='text' class='inputText' bindinput='userInput' placeholder='请输入用户名'/>
+    </view>
+    <!--密码  -->
+    <view class='inputView'>
+      <image class='pwd' src="../../images/pass.png"/>
+      <label class='login'>密  码：</label>
+      <input type='password' class='inputText' bindinput='passwordInput' placeholder='请输入密码'/>
+    </view>
+    <!--确认密码  -->
+    <view class='inputView'>
+      <image class='repwd' src="../../images/repwd.png" style='width:30px;height:30px;'/>
+      <label class='login'>确认密码：</label>
+      <input type='password' class='inputText' bindinput="repwdInput" placeholder='请确认密码'/>
+    </view>
+    <!--登录按钮  -->
+    <view class='loginBtn'>
+      <button class='btn' bindtap='regBtnClick'>注册</button>
+    </view>
+
+
+    <view class='bottom'>
+    <view>
+      <text>已有账户？</text>
+      <navigator url="/pages/login/login" hover-class='navigator-hover'>
+        <text style='font-size:15px;margin-left:10rpx;color:red;'>登录</text>
+      </navigator>
+    </view>
+    <view class='wechat-icon'>
+       
+    </view>
+  </view>
+
+  </view>
+</view>
